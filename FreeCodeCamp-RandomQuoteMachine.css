@@ -1,0 +1,87 @@
+body{
+
+margin: 0;
+padding:0;
+}
+
+.page-border{
+    height:450px;
+    width:750px;
+    position: relative;
+    padding-top: 10px;
+    margin:auto auto auto auto;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.page-heading{
+    text-align: center;
+    font-family:'Oswald';
+    width:400px;
+    display:block;
+    margin:30px auto 30px auto;
+
+}
+
+.quote-box{
+    height:250px;
+    width:500px;
+    border:double;
+    position: relative;
+    border-radius: 30px;
+    margin:8% auto auto auto;
+    padding: 40px 50px;
+
+
+
+
+}
+.quote-text{
+    width:500px;
+    height:100px;
+    text-align:center;
+    font-weight: 500;
+    font-size: 1.50em;
+}
+.quote-author {
+    width:450px;
+    height:auto;
+    clear:both;
+
+    font-weight: 500;
+    font-size:1.25em;
+    text-align:right;
+  }
+
+.button-section{
+
+    width:400px;
+    margin:auto;
+    display:block;
+
+}
+.btn{
+    width:100px;
+    height:38px;
+    background-color: grey;
+    color: white;
+    margin-top:30px;
+    font-size:0.85em;
+    text-align: center;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+   }
+
+.btn:hover:not(.header){
+    background-color: black
+}
+  #newQuote{
+      float:right;
+  }
+  #tweet{
+    float:left;
+
+  }
